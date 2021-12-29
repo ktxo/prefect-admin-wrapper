@@ -149,16 +149,16 @@ optional arguments:
   See https://docs.prefect.io/orchestration/concepts/api_keys.html#using-api-keys
 
 
-- Clone repo from https://github.com/ktxo/prefect-poc.git
-## Executing API
-```
-git clone https://github.com/ktxo/prefect-admin-wrapper.git
-cd prefect-admin-wrapper
-python setup.py bdist_wheel 
-pip install dist/prefect_wrapper-*.whl
+- Clone repo from https://github.com/ktxo/prefect-admin-wrapper.git
 
-prefect_wrapper -v
-```
+  ```
+  git clone https://github.com/ktxo/prefect-admin-wrapper.git
+  cd prefect-admin-wrapper
+  python setup.py bdist_wheel 
+  pip install dist/prefect_wrapper-*.whl
+
+  prefect_wrapper -v
+  ```
 
 # Executing API
 The script allows to execute others GraphQL's using a class inherited from [GQLBase](ktxo/prefect/admin/gql/base.py), there is an example in [GQLLog](GQLs/dummy/gql_example.py)
