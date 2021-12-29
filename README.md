@@ -144,6 +144,11 @@ optional arguments:
   0.15.5
   ```
 
+- Configure Prefect API Key
+
+  See https://docs.prefect.io/orchestration/concepts/api_keys.html#using-api-keys
+
+
 - Clone repo from https://github.com/ktxo/prefect-poc.git
 ## Executing API
 ```
